@@ -17,12 +17,15 @@ const App= ()=>{
   const nb1=10
   const nb2=7
   const nb3 =14
+  const part1='part1'
+  const part2= 'part2'
+  const part3= 'part3'
   return(
     <div>
     <Header name='Half stack application development' />
-    <Content name= 'part1' nbre= {10} />
-    <Content name= 'part2' nbre= {7} />
-    <Content name= 'part3' nbre= {14} />
+    <Content name= {part1} nbre= {10} />
+    <Content name= {part2} nbre= {7} />
+    <Content name= {part3} nbre= {14} />
     <Total nbre={nb1+nb2+nb3} />
      </div>
      
